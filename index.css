@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background-color: yellow;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+.card {
+    width: 100%;
+    max-width: 390px;  
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 16px;
+    box-shadow: 5px 8px;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.card-img{
+    padding-left: 5px;
+    display: block;
+}
+button{
+    background-color: #F6D34A; 
+    color: black; 
+    font-weight: bold; 
+    border: none; 
+    padding: 10px 18px;
+    font-size: 16px;
+    cursor: pointer; 
+    border-radius: 5px;
+    margin: 6px;
+}
+h4{
+    margin: 10px;
+    font-weight: lighter;
+    font-size: 15px;
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+}
+.card-course{
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'systemui',sans-serif;
+
+}
+.card-course:hover{
+    cursor: pointer;
+    color: yellow;
+}
+.card-details{
+    margin: 10px;
+    font-weight: lighter;
+    font-family: 'Open Sans',sans-serif;
+}
+.card-profile{
+    display: flex;
+    align-items: center;  
+}
+.profile-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    object-fit: cover;
+}
+.profile-name {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 8px;
+}
